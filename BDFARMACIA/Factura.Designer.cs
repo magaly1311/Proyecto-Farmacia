@@ -1,0 +1,290 @@
+﻿namespace BDFARMACIA
+{
+    partial class Factura
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Factura));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBoxcliente = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBoxproducto = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.buttonagregar = new System.Windows.Forms.Button();
+            this.buttontotalcompra = new System.Windows.Forms.Button();
+            this.textBoxtotal = new System.Windows.Forms.TextBox();
+            this.Guardar = new System.Windows.Forms.Button();
+            this.buttonsalir = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.textBoxunidad = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(29, -4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(410, 119);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(72)))), ((int)(((byte)(107)))));
+            this.label1.Location = new System.Drawing.Point(532, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(227, 30);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "TICKET DE COMPRA";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(28, 137);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 14);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Fecha";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(26, 180);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 14);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Cliente";
+            // 
+            // comboBoxcliente
+            // 
+            this.comboBoxcliente.FormattingEnabled = true;
+            this.comboBoxcliente.Location = new System.Drawing.Point(97, 180);
+            this.comboBoxcliente.Name = "comboBoxcliente";
+            this.comboBoxcliente.Size = new System.Drawing.Size(204, 21);
+            this.comboBoxcliente.TabIndex = 8;
+            this.comboBoxcliente.SelectedIndexChanged += new System.EventHandler(this.comboBoxcliente_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(29, 228);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(63, 14);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Producto";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(30, 266);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(102, 14);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Total de piezas";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // comboBoxproducto
+            // 
+            this.comboBoxproducto.FormattingEnabled = true;
+            this.comboBoxproducto.Location = new System.Drawing.Point(97, 225);
+            this.comboBoxproducto.Name = "comboBoxproducto";
+            this.comboBoxproducto.Size = new System.Drawing.Size(204, 21);
+            this.comboBoxproducto.TabIndex = 12;
+            this.comboBoxproducto.SelectedIndexChanged += new System.EventHandler(this.comboBoxproducto_SelectedIndexChanged);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(189)))), ((int)(((byte)(154)))));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(320, 137);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(623, 235);
+            this.dataGridView1.TabIndex = 13;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // buttonagregar
+            // 
+            this.buttonagregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
+            this.buttonagregar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonagregar.Location = new System.Drawing.Point(33, 307);
+            this.buttonagregar.Name = "buttonagregar";
+            this.buttonagregar.Size = new System.Drawing.Size(135, 28);
+            this.buttonagregar.TabIndex = 14;
+            this.buttonagregar.Text = "Agregar al carrito";
+            this.buttonagregar.UseVisualStyleBackColor = false;
+            this.buttonagregar.Click += new System.EventHandler(this.buttonagregar_Click);
+            // 
+            // buttontotalcompra
+            // 
+            this.buttontotalcompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
+            this.buttontotalcompra.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttontotalcompra.Location = new System.Drawing.Point(33, 341);
+            this.buttontotalcompra.Name = "buttontotalcompra";
+            this.buttontotalcompra.Size = new System.Drawing.Size(152, 31);
+            this.buttontotalcompra.TabIndex = 15;
+            this.buttontotalcompra.Text = "Total de la compra";
+            this.buttontotalcompra.UseVisualStyleBackColor = false;
+            this.buttontotalcompra.Click += new System.EventHandler(this.buttontotalcompra_Click);
+            // 
+            // textBoxtotal
+            // 
+            this.textBoxtotal.Location = new System.Drawing.Point(191, 347);
+            this.textBoxtotal.Name = "textBoxtotal";
+            this.textBoxtotal.Size = new System.Drawing.Size(110, 20);
+            this.textBoxtotal.TabIndex = 16;
+            this.textBoxtotal.TextChanged += new System.EventHandler(this.textBoxtotal_TextChanged);
+            // 
+            // Guardar
+            // 
+            this.Guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
+            this.Guardar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Guardar.Location = new System.Drawing.Point(33, 378);
+            this.Guardar.Name = "Guardar";
+            this.Guardar.Size = new System.Drawing.Size(90, 25);
+            this.Guardar.TabIndex = 17;
+            this.Guardar.Text = "Guardar";
+            this.Guardar.UseVisualStyleBackColor = false;
+            this.Guardar.Click += new System.EventHandler(this.Guardar_Click);
+            // 
+            // buttonsalir
+            // 
+            this.buttonsalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
+            this.buttonsalir.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonsalir.Location = new System.Drawing.Point(129, 378);
+            this.buttonsalir.Name = "buttonsalir";
+            this.buttonsalir.Size = new System.Drawing.Size(78, 25);
+            this.buttonsalir.TabIndex = 18;
+            this.buttonsalir.Text = "Borrar";
+            this.buttonsalir.UseVisualStyleBackColor = false;
+            this.buttonsalir.Click += new System.EventHandler(this.buttonsalir_Click);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(97, 137);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(204, 20);
+            this.dateTimePicker1.TabIndex = 19;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(835, 23);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(108, 77);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
+            // textBoxunidad
+            // 
+            this.textBoxunidad.Location = new System.Drawing.Point(140, 266);
+            this.textBoxunidad.Name = "textBoxunidad";
+            this.textBoxunidad.Size = new System.Drawing.Size(161, 20);
+            this.textBoxunidad.TabIndex = 21;
+            this.textBoxunidad.TextChanged += new System.EventHandler(this.textBoxunidad_TextChanged);
+            this.textBoxunidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxunidad_KeyPress_1);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // Factura
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
+            this.ClientSize = new System.Drawing.Size(978, 423);
+            this.Controls.Add(this.textBoxunidad);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.buttonsalir);
+            this.Controls.Add(this.Guardar);
+            this.Controls.Add(this.textBoxtotal);
+            this.Controls.Add(this.buttontotalcompra);
+            this.Controls.Add(this.buttonagregar);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.comboBoxproducto);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.comboBoxcliente);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Name = "Factura";
+            this.Text = "Factura";
+            this.Load += new System.EventHandler(this.Factura_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBoxcliente;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox comboBoxproducto;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button buttonagregar;
+        private System.Windows.Forms.Button buttontotalcompra;
+        private System.Windows.Forms.TextBox textBoxtotal;
+        private System.Windows.Forms.Button Guardar;
+        private System.Windows.Forms.Button buttonsalir;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox textBoxunidad;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+    }
+}
